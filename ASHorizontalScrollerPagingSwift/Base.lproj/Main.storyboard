@@ -22,10 +22,10 @@
             </objects>
             <point key="canvasLocation" x="-561" y="311"/>
         </scene>
-        <!--ASViewController-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="ASViewController" id="BYZ-38-t0r" customClass="ASViewController" customModule="ASHorizontalScrollerPagingSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ASViewController" customModule="ASHorizontalScrollerPagingSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="-128" y="311"/>
         </scene>
-        <!--ASRootViewController-->
+        <!--Root View Controller-->
         <scene sceneID="L6k-Im-Oc2">
             <objects>
-                <viewController title="ASRootViewController" id="Afb-R8-YM6" customClass="ASRootViewController" sceneMemberID="viewController">
+                <viewController id="Afb-R8-YM6" customClass="ASRootViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3QR-EN-UxN"/>
                         <viewControllerLayoutGuide type="bottom" id="yB1-Qn-pIN"/>

@@ -26,8 +26,7 @@ protocol ASHorizontalScrollerDelegate {
   
     // ask the delegate for the index of the initial view to display. this method is optional
     // and defaults to 0 if it's not implemented by the delegate
-  //  func initialViewIndexForHorizontalScroller(scroller: ASHorizontalScroller) -> Int
-    func horizontalScrollerDidScrollView(fractional: CGFloat)
+    // func horizontalScrollerDidScrollView(fractional: CGFloat)
 }
 
 
@@ -99,10 +98,10 @@ class ASHorizontalScroller: UIView,UIScrollViewDelegate
         self.reload()
     }
     
-    func scrollViewDidScroll(aScrollView: UIScrollView) {
+    /*func scrollViewDidScroll(aScrollView: UIScrollView) {
         let pageWidth: CGFloat = scroller.bounds.size.width
         let fractionalPage: CGFloat = scroller.contentOffset.x / pageWidth
         self.delegate.horizontalScrollerDidScrollView(fractionalPage)
-    }
+    }*/
 }
 

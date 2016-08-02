@@ -36,11 +36,7 @@ class ASViewController: UIViewController,ASHorizontalScrollerDataSource,ASHorizo
         self.view!.addSubview(scroller)
     }
     
-    // MARK: - ASHorizontalScrollerDelegate
-    func horizontalScrollerDidScrollView(fractional: CGFloat) {
-        
-    }
-    
+    // MARK: - ASHorizontalScrollerDelegate    
     func horizontalScroller(scroller: ASHorizontalScroller, tapViewAtIndex index: Int) {
         print("index \(index)")
     }
