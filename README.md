@@ -1,14 +1,14 @@
 # ASHorizontalScrollerPaging_Swift
 ========================
-ASHorizontalScrollerPaging is a very simple control to display some screens for the first launch of your application or as an Image Gallery
+A very simple control to display some screens for the first launch of your application or as an Image Gallery
 
 
-
-![ASHorizontalScrollerPaging](https://github.com/AhmedAskar/ASHorizontalScrollerPaging_Swift/blob/master/ASHorizontalScrollerPaging_Swift/Shoot2.png)
+![ASHorizontalScrollerPaging_Swift](https://github.com/AhmedAskar/ASHorizontalScrollerPaging_Swift/blob/master/Shoot2.png)
 
 
 To use the ASHorizontalScrollerPaging please do the following:
 
+# Usage
 
 Add the following lines of code to your ViewDidLoad:
 ```
